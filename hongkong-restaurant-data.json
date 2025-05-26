@@ -1,0 +1,99 @@
+{
+  "restaurants": [
+    {
+      "restaurant_id": "h001",
+      "restaurant_name": "喜記燒臘",
+      "restaurant_type": "燒臘",
+      "price_range": "便宜",
+      "address": "香港深水埗北河街",
+      "opening_hours": "10:30-21:00",
+      "description": "傳統香港燒臘店，提供各種燒味，包括燒鵝、叉燒、燒肉等。平價美味，是當地街坊最愛的食肆。",
+      "image_url": "https://example.com/images/heekey.jpg",
+      "phone": "852-12345678"
+    }
+  ],
+  "menus": {
+    "h001": [
+      {
+        "item_name": "燒鵝飯",
+        "category": "主食",
+        "price": 45,
+        "description": "香脆燒鵝配白飯，肉質鮮嫩多汁",
+        "image_url": "https://example.com/images/roast-goose-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "叉燒飯",
+        "category": "主食",
+        "price": 40,
+        "description": "蜜汁叉燒配白飯，肥瘦適中",
+        "image_url": "https://example.com/images/bbq-pork-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "燒肉飯",
+        "category": "主食",
+        "price": 42,
+        "description": "香脆可口的燒肉配白飯",
+        "image_url": "https://example.com/images/roast-pork-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "油雞飯",
+        "category": "主食",
+        "price": 38,
+        "description": "皮爽肉嫩的白切雞配白飯",
+        "image_url": "https://example.com/images/soy-chicken-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "三寶飯",
+        "category": "主食",
+        "price": 48,
+        "description": "叉燒、燒肉、油雞三種燒味拼盤配白飯",
+        "image_url": "https://example.com/images/three-treasures-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "兩餸飯",
+        "category": "主食",
+        "price": 30,
+        "description": "可選兩種配菜搭配白飯，包括豆角、雞翼等",
+        "image_url": "https://example.com/images/two-dish-rice.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "西洋菜湯",
+        "category": "湯品",
+        "price": 10,
+        "description": "清甜可口的老火湯",
+        "image_url": "https://example.com/images/watercress-soup.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "鵝翼",
+        "category": "燒味",
+        "price": 35,
+        "description": "鹵水浸製的鵝翼，香而不膩",
+        "image_url": "https://example.com/images/goose-wing.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "鵝腸",
+        "category": "燒味",
+        "price": 40,
+        "description": "鹵水浸製的鵝腸，口感Q彈",
+        "image_url": "https://example.com/images/goose-intestine.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "滷豆腐",
+        "category": "燒味",
+        "price": 30,
+        "description": "入味的滷水豆腐，豆香濃郁",
+        "image_url": "https://example.com/images/braised-tofu.jpg",
+        "is_available": true
+      }
+    ]
+  }
+} 

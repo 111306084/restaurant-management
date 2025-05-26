@@ -1,0 +1,66 @@
+-- 創建資料庫
+CREATE DATABASE IF NOT EXISTS restaurant_system CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE restaurant_system;
+
+-- 學生資料表
+CREATE TABLE IF NOT EXISTS students (
+  student_id VARCHAR(9) PRIMARY KEY,
+  student_name VARCHAR(100) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  email VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- 餐廳資料表
+CREATE TABLE IF NOT EXISTS restaurants (
+  restaurant_id INT AUTO_INCREMENT PRIMARY KEY,
+  restaurant_name VARCHAR(100) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  restaurant_type VARCHAR(100),
+  price_range VARCHAR(50),
+  address VARCHAR(200),
+  opening_hours VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- 其他相關資料表可以根據需要添加npm init -y
+npm install express mysql2 bcrypt jsonwebtoken cors dotenvbackend/
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── authController.js
+│   └── studentController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   └── studentModel.js
+├── routes/
+│   ├── authRoutes.js
+│   └── studentRoutes.js
+├── .env
+├── server.js
+└── package.json.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,99 @@
+{
+  "restaurants": [
+    {
+      "restaurant_id": "l001",
+      "restaurant_name": "Lazy Pasta 慵懶義麵",
+      "restaurant_type": "義式料理",
+      "price_range": "中等",
+      "address": "台北市大安區忠孝東路四段101號",
+      "opening_hours": "11:00-21:30",
+      "description": "提供道地義大利麵料理，主打手工新鮮製作的各種義大利麵，搭配經典醬料。輕鬆愜意的用餐環境，適合朋友聚餐或獨自享用美食。",
+      "image_url": "https://example.com/images/lazypasta.jpg",
+      "phone": "02-27711234"
+    }
+  ],
+  "menus": {
+    "l001": [
+      {
+        "item_name": "奶油培根義大利麵",
+        "category": "主食",
+        "price": 280,
+        "description": "使用新鮮雞蛋、帕瑪森起司和煙燻培根製作的經典奶油義大利麵",
+        "image_url": "https://example.com/images/carbonara.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "番茄海鮮義大利麵",
+        "category": "主食",
+        "price": 320,
+        "description": "新鮮海鮮配上自製番茄醬汁，微辣口味，風味獨特",
+        "image_url": "https://example.com/images/seafood-pasta.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "松露蘑菇義大利麵",
+        "category": "主食",
+        "price": 350,
+        "description": "奶油醬汁搭配進口松露和各式鮮菇，香氣十足",
+        "image_url": "https://example.com/images/truffle-pasta.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "青醬雞肉義大利麵",
+        "category": "主食",
+        "price": 290,
+        "description": "羅勒松子青醬搭配嫩煎雞胸肉，清新爽口",
+        "image_url": "https://example.com/images/pesto-chicken-pasta.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "牛肉肉醬寬麵",
+        "category": "主食",
+        "price": 310,
+        "description": "慢燉牛肉肉醬搭配寬麵，濃郁香醇",
+        "image_url": "https://example.com/images/bolognese.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "焗烤千層麵",
+        "category": "主食",
+        "price": 300,
+        "description": "多層次的千層麵，配以肉醬、白醬和滿滿起司，烤至金黃酥脆",
+        "image_url": "https://example.com/images/lasagna.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "鮮蝦酪梨沙拉",
+        "category": "前菜",
+        "price": 220,
+        "description": "新鮮酪梨、鮮蝦和櫻桃番茄佐以特製油醋醬",
+        "image_url": "https://example.com/images/shrimp-avocado-salad.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "香烤大蒜麵包",
+        "category": "前菜",
+        "price": 150,
+        "description": "香脆麵包塗上大蒜奶油醬烤至金黃，外酥內軟",
+        "image_url": "https://example.com/images/garlic-bread.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "提拉米蘇",
+        "category": "甜點",
+        "price": 180,
+        "description": "經典義式甜點，咖啡浸泡的手指餅乾層層堆疊，口感豐富",
+        "image_url": "https://example.com/images/tiramisu.jpg",
+        "is_available": true
+      },
+      {
+        "item_name": "手工冰淇淋",
+        "category": "甜點",
+        "price": 150,
+        "description": "多種口味可選，每日新鮮製作",
+        "image_url": "https://example.com/images/gelato.jpg",
+        "is_available": true
+      }
+    ]
+  }
+} 

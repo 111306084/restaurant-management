@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="200" rx="10" fill="#f8f9fa"/>
+  
+  <!-- 校園建築輪廓 -->
+  <path d="M50 150 L100 80 L150 150 L50 150" fill="#4a90e2" opacity="0.8"/>
+  <path d="M120 150 L170 60 L220 150 L120 150" fill="#ff5722" opacity="0.7"/>
+  <path d="M200 150 L250 90 L300 150 L200 150" fill="#4a90e2" opacity="0.8"/>
+  
+  <!-- 學生圖標 -->
+  <circle cx="320" cy="70" r="30" fill="#ff5722"/>
+  <path d="M320 50 L320 90 M305 70 L335 70" stroke="white" stroke-width="5"/>
+  
+  <!-- 書本圖標 -->
+  <rect x="70" y="50" width="30" height="40" rx="2" fill="#4a90e2"/>
+  <path d="M70 55 L100 55 M70 65 L100 65 M70 75 L100 75 M70 85 L100 85" stroke="white" stroke-width="2"/>
+  
+  <!-- 文字 -->
+  <text x="200" y="180" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#333" text-anchor="middle">NCCU 學生點餐系統</text>
+</svg>

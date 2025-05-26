@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圓形 -->
+  <circle cx="100" cy="100" r="95" fill="#FF5722" opacity="0.9"/>
+  
+  <!-- 盤子 -->
+  <ellipse cx="100" cy="110" rx="65" ry="25" fill="white"/>
+  <ellipse cx="100" cy="110" rx="55" ry="18" fill="#FF5722" opacity="0.2"/>
+  
+  <!-- 筷子 -->
+  <rect x="60" y="50" width="4" height="80" rx="2" transform="rotate(-15 60 50)" fill="white"/>
+  <rect x="70" y="48" width="4" height="80" rx="2" transform="rotate(-15 70 48)" fill="white"/>
+  
+  <!-- 食物圖標 -->
+  <circle cx="90" cy="100" r="12" fill="white"/>
+  <circle cx="115" cy="105" r="10" fill="white"/>
+  <circle cx="100" cy="85" r="8" fill="white"/>
+  
+  <!-- 文字 "NCCU Eats" -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="white" text-anchor="middle">NCCU Eats</text>
+</svg>
