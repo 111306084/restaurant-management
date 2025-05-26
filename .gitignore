@@ -25,42 +25,67 @@ CREATE TABLE IF NOT EXISTS restaurants (
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- 其他相關資料表可以根據需要添加npm init -y
-npm install express mysql2 bcrypt jsonwebtoken cors dotenvbackend/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── authController.js
-│   └── studentController.js
-├── middleware/
-│   └── authMiddleware.js
-├── models/
-│   └── studentModel.js
-├── routes/
-│   ├── authRoutes.js
-│   └── studentRoutes.js
-├── .env
-├── server.js
-└── package.json.DS_Store
-node_modules
+# 依賴
+node_modules/
 /dist
+.pnpm-debug.log*
 
+# 環境文件
+.env
+.env.*
+!.env.example
 
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
+# 系統文件
+.DS_Store
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# 日誌文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 上傳文件目錄
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# 資料庫文件
+*.sqlite
+*.db
+
+# 憑證
+*.pem
+*.key
+*.crt
+
+# 暫存文件
+*.tmp
+*.temp
+.cache/
+
+# 編譯輸出
+/dist/
+/build/
+/out/
+
+# 測試覆蓋率
+/coverage/
+
+# 本地配置
+config.local.js
+local.config.js
+
+# JWT 密鑰
+jwt.key
+jwt.pub
+
+# 備份文件
+*.bak
+*.backup
+*~
