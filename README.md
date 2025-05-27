@@ -32,16 +32,11 @@
 - Prettier
 - Git
 
-## 📸 系統截圖
-
-![訂單管理介面](screenshots/orders.png)
-![數據分析儀表板](screenshots/dashboard.png)
-
 ## 🚀 快速開始
 
 1. 克隆專案
 ```bash
-git clone https://github.com/yourusername/restaurant-management
+git clone https://github.com/111306084/restaurant-management
 cd restaurant-management
 ```
 
